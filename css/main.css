@@ -1,0 +1,13 @@
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.accordion {
+  display: block;
+  width: 500px;
+  margin: 20px;
+  box-sizing: border-box;
+}
