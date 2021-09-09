@@ -39,7 +39,7 @@ class JtAccordion extends HTMLElement {
     this.titleEl = document.createElement('h1')
     this.titleEl.classList.add('title')
     this.titleEl.textContent = this.getAttribute('title')
-    this.titleEl.onclick = () => this.toggleAccordion()
+    this.titleEl.onclick = this.toggleAccordion.bind(this)
 
     this.accordionEl = document.createElement('div')
     this.accordionEl.classList.add('accordion')
